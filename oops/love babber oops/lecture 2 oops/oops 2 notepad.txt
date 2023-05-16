@@ -1,0 +1,35 @@
+||Encapsulation:-
+    wrapping up the function and the data members, IN a single entity.
+fully encapsulated class:-all data members are private.
+
+Orr in other words ,the Encapsulation is data hidingorr information hiding. 
+
+Advantages:- 
+# Data hiding-> security increses.
+# if we want,we can make class -"read only".
+# code Reusabilty
+# Encapsulation -> unit testing.
+
+||Inheritance:-
+inheritance matlab ek class hai uski proerty dusre ki class mae inherit ho jaana..
+example:-
+HUMAN:-
+height,weight,age;
+
+HUMAN ki property ko inherit kar lena male and female mae...
+male <- HUMAN
+female <- HUMAN
+ 
+Human->superclass/parent class..
+
+Male->sub-class/child-class..
+
+||Types of inheritance||
+* single
+* multi-level
+* Multiple
+* Hybrid
+* Herical
+
+
+

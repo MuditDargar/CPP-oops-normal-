@@ -1,0 +1,92 @@
+Object oriented programming :-
+
+|: object is a entity, entity have a state or properties and behaviour.
+example:
+ hero:- name,health ,level is a prperties of hero.
+attack,dance,defence it is a nature..
+
+class: class is a blueprint orr template.
+after making the class ,no memory is allocated.
+
+when you intialize the object orr create a object
+after this the  memory is allocated.
+
+
+* if you create a empty class and create object 
+then you check the size of object is one because class ki identification ke liye
+1 output aata hai...
+
+* if you make class in new program and access in another program then you need
+to use as libary juat like #include "hero.cpp"
+
+IN CLASS :
+there are three modifiers:
+:- Public
+:- Private
+:- protected
+
+By default the class is private.
+
+public:- public modifier ko aap isko kidar bhi access kar sakhte ho program mae easily.
+private:- private modifier ko aap kevel class ke ander hi access kar sakhte hai bahar se nhi.
+
+# Getter and Setter :- by the use of this you easily access the private element.
+
+what is padding and greedy alignment ...
+
+padding:-one or more empty bytes (addresses) are inserted (or left empty) between
+ memory addresses which are allocated for other structure members while memory allocation.
+
+greddy alignment:-
+
+................................................
+access the private member:
+1.using the use of static allocation
+2. using the use of dynamic allocation
+
+||Constructor||
+
+properties of consturctor-
+* object creation invoke
+* No return type
+* No input parameter
+
+1. Default constructor :
+asa constructor jese aap void pointer ka use karke cout karke print karwa te ho
+agar aap object bana te ho toh print ho jaata hai..
+
+jese 
+class mudit{
+
+mudit(){
+cout<<"default constructor"<<endl;
+}
+};
+int main(){
+mudit m1;
+}
+
+output:- default constructor.
+
+
+2.parameterised constructor:
+asa constructor jismae apan parameter dete hai alag alg char level,int health..
+
+(||this keyword:- Use this keyword to initialize value of  class member
+ same as the parameter same passed in the constructor.||)
+
+3. Copy constructor:
+asa constructor jismae aap copy karna chaa rhe ho.
+
+note: copy constructor mae pass by value karoge toh woh baar baar ek dusre ko call karta rahega
+but call by referance karege toh woh dono ki copy uss class mae bana dega orr easily use ho jayega
+SO,apan call by referance use karege...
+
+||Shallow and Deep Copy||
+shallow copy mean same memory ko access kar rhe ho 2 naamo se...
+
+||distructor||
+memory ko deallocate karne ke liye distructor use hota hai...
+* No return type
+* No input parameter
+* name same ta hai class ke name se
